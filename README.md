@@ -13,7 +13,11 @@ frequently asked questions (including where to ask questions).
 
 ## Installation
 
-You can install the stable version on
+After installing the development packages you might need to build some upstream libraries with
+
+    sudo apt-get install libglu1-mesa-dev mesa-common-dev libcurl4-gnutls-dev libxml2-dev 
+
+(which are needed for rgl, Rcurl and XML), you can install the stable version on
 [CRAN](http://cran.rstudio.com/package=knitr):
 
 ```r
